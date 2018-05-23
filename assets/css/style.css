@@ -1,0 +1,95 @@
+/*
+ *
+ *	css reset
+ *
+ */
+ * {
+ 	padding:0;
+ 	margin:0;
+ 	box-sizing: border-box;
+ }
+ body {
+ 	background-color: black;
+ }
+ /*
+ *
+ *	general rules
+ *
+ */
+ header#mainHeader {
+ 	background-color: darkorange;
+ 	color:white;
+ 	height: 10vh;
+ 	font-family: 'Montserrat', sans-serif;
+ 	letter-spacing: 5px;
+ }
+ header#mainHeader > div {
+ 	height: 100%;
+ 	width: 50%;
+ 	float:left;
+ 	/*padding:15px;*/
+ }
+ header#mainHeader > div > h2 {
+ 	line-height: 10vh;
+ 	margin-left: 15px;
+ }
+ header#mainHeader > div:last-child > ul {
+ 	text-align: right;
+ }
+ 
+ header#mainHeader > div:last-child > ul li {
+ 	list-style: none;
+ 	display: inline;
+ 	line-height: 10vh;
+ 	margin-right: 15px;
+ 	text-transform: none;
+ }
+
+ header#mainHeader > div:last-child > ul li:hover {
+ 	color:white;
+ }
+
+ main#wrapper {
+ 	background-color: darkgray;
+ 	color:lightgreen;
+ 	width: 80%;
+ 	min-height: 85vh;
+ 	margin:auto;
+	font-family: 'Raleway', sans-serif;
+ }
+ main#wrapper > h1 {
+ 	font-family: 'Montserrat', sans-serif;
+ 	letter-spacing: 5px;
+ 	text-align: center;
+ 	padding: 25px;
+ }
+
+ main#wrapper > ul {
+ 	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+ }
+ main#wrapper > ul > li {
+ 	display: inline-block;
+ 	margin:15px;
+ }
+ main#wrapper > ul > li > a {
+ 	text-decoration: none;
+ }
+main#wrapper > div {
+	text-align: center;
+}
+main#wrapper > div > img {
+	/*display: initial;*/
+	width: 90%;
+	height: 60%;
+	border:2px solid black;
+}
+ footer#mainFooter {
+ 	background-color: darkorange;
+ 	height: 5vh;
+	font-family: 'Raleway', sans-serif;
+ 	padding: 15px;
+ 	min-height: 5vh;
+ 	text-align: center;
+ }
